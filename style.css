@@ -23,7 +23,7 @@ img {
 	transition: all 0.5s;
 }
 img:hover {
-	transform: scale(1.5);
+	transform: scale(2);
 }
 img {
 	float: center;
