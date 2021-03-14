@@ -1,7 +1,7 @@
-.flex_images {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+.grid {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 h1 {
 	font-family: Maiandra GD;
@@ -19,16 +19,16 @@ h1 {
 img {
 	width: 225px;
 	height: 300px;
-	margin: 8px;
 	transition: all 0.5s;
 }
 img:hover {
 	transform: scale(2);
+	align-self: center;
 }
 img {
 	float: center;
 }
 body {
 	background-color: white;
-	margin: 0px;
+	margin: 40px;
 }
